@@ -1,0 +1,21 @@
+@import url("./css/main_page.css");
+@import url('./css/search_page.css');
+@import url('./css/login.css');
+@import url('./campground_individual/campground-css/mount-ulap.css');
+
+:root {
+    --main-font: 'Archivo', sans-serif;
+    --body: #fff;
+    --primary-color: #000006;
+    --secondary-color: #6a747e;
+    --background-color-check: #00a68c;
+    --search-page-background-color: #f8efcc;
+    --login-page-background-color: #f7f6f0;
+    --edge-color: #e2e2e2;
+}
+
+body {
+    background-color: var(--body);
+    font-family: var(--main-font);
+    font-size: 16px;
+}

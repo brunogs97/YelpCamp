@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+    <script src="https://kit.fontawesome.com/c5ed4752ba.js" crossorigin="anonymous"></script>
+    <title>YelpCamp | Login</title>
+</head>
+<body>
+    <main id="main__login-page">
+        <section id="login__section">
+            <div class="login__section-header">
+                <img src="../Desktop/Logo.svg" alt="Imagem logo YelpCamp">
+                <div class="linkBackToSearch">
+                    <i class="fa-solid fa-arrow-left-long"></i>
+                    <!--Link para voltar para página de procura-->
+                    <a href="./search_page.html" class="linkBackToSearchPage">Back to campgrounds</a>
+                </div>
+            </div>
+
+            <div id="formusername-password">
+                <h1 class="login__page-title">
+                    Start exploring  camps from all 
+                    around the world.
+                </h1>
+    
+                <form>
+                    <label for="name">Username</label><br>
+                    <input type="text" id="name" class="name" placeholder="johndoe_97"><br>
+                    <label for="password">Password</label><br>
+                    <input type="password" id="password" class="password" placeholder="Enter Your Password"><br>
+                    <input type="submit" id="login" class="login" onclick="logar(); return false" value="Login">
+                </form>
+                <span class="">Not a user yet?</span>
+                <!--Link para criar uma conta-->
+                <a href="#" class="linkToCreateAnAccount">Create an account</a>
+            </div>
+            
+        </section>
+        <div class="comment__on-yelpcamp">
+            <article id="comment-user-information">
+                <p class="customer__comment">
+                    "YelpCamp has honestly saved me hours of research time,
+                    and the camps on here are definitely well picked and added."
+                </p>
+                <div class="user__information">
+                    <img src="../Desktop/User Testimonial.svg" class="profile__picture" alt="Foto do usuário">
+                    <span class="username">May Andrews</span>
+                    <span class="profession__user">Professional Hiker</span>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <script src="../js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+#main__content {
+    width: 1080px;
+    margin: 3em auto;
+    display: grid;
+    grid-template-areas: 
+                "local__map location__information"
+    ;
+    grid-template-columns: 380px 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    position: relative;
+}
+
+.local__map {
+    height: 390px;
+    border: 1px solid var(--edge-color);
+    padding: 2em 0;
+    text-align: center;
+}
+
+
+/*seção informações do local*/
+.location__information {
+    border: 1px solid var(--edge-color);
+    padding: 2em;
+}
+
+.image-of-the-place {
+    margin: 0 auto;
+    display: block;
+    width: 610px;
+    margin-bottom: 1em;
+}
+
+.location__information-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.place__name {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.value__for-camping {
+    font-size: 14px;
+    color: var(--secondary-color);
+}
+
+.place__description {
+    width: 600px;
+    font-size: 15px;
+    line-height: 20px;
+    color: var(--secondary-color);
+    margin: 1em 0;
+}
+
+.quote {
+    font-style: italic;
+    color: var(--secondary-color);
+}
+
+/*seção comentários*/
+.comments-about-the-place {
+    border: 1px solid var(--edge-color);
+    padding: .5em 2em;
+    height: 430px;
+    text-align: end;
+}
+
+.username-and-comment {
+    margin: 1.5em 0;
+    border-bottom: 2px solid var(--edge-color);
+}
+
+.comment__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comment-time {
+    font-size: 14px;
+    color: var(--secondary-color);
+}
+
+.user__comment {
+    text-align: start;
+    color: var(--secondary-color);
+    margin: 1em 0;
+    line-height: 22px;
+}
+
+/*Botão para adicionar comentários*/
+.add-comment-button {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1em;
+    border-radius: 4px;
+}
+
+.fa-solid {
+    margin-right: .2em;
+}

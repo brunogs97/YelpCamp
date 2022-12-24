@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+    <script src="https://kit.fontawesome.com/c5ed4752ba.js" crossorigin="anonymous"></script>
+    <title>YelpCamp | Mount Ulap</title>
+</head>
+<body>
+    <nav class="navigation__bar">
+        <!--Menu esquerdo-->
+        <div class="left-menu">
+            <img src="../Desktop/Logo.svg" id="yelpcamp__logo" alt="Logo da YelpCamp"></li>
+            <a href="../index.html" class="navigation__link">Home</a>
+        </div>
+        <!--Menu direito-->
+        <div class="right-menu">
+            <!--Link para a página de login-->
+            <a href="../pages/login.html" class="navigation__link">Login</a>
+            <!--Botão para criar uma conta-->
+            <a href="#" class="button button__create-account">Create an account</a>
+        </div>
+
+    </nav>
+
+    <main id="main__content">
+        <aside class="local__map">
+            <img src="../Desktop/Map.png" class="image__location" alt="Foto da localização">
+        </aside>
+
+        <article class="location__information">
+            <img src="../Desktop/Compressed Images/Mount Ulap.jpg" class="image-of-the-place" alt="Foto de Mount Ulap">
+            <header class="location__information-header">
+                <span class="place__name">Mount Ulap</span>
+                <span class="value__for-camping">$104.99/night</span>
+            </header>
+            <p class="place__description">
+                Mount Ulap is a 7.7 kilometer moderately trafficked point-to-point
+                trail located near Tuba, Benguet, Philippines that offers
+                the chance to see wildlife and is rated as moderate.
+                The trail is primarily used for hiking.
+            </p>
+
+            <cite class="quote">Submitted by Andrew Mike</cite>
+        </article>
+
+        <!--Remover item-->
+        <article class="remover">        </article>
+
+        <article class="comments-about-the-place">
+            <div class="username-and-comment">
+                <div class="comment__header">
+                    <span class="username">Adam Jones</span>
+                    <span class="comment-time">13h ago</span>
+                </div>
+                <p class="user__comment">
+                    Honestly one of the best experiences ever, took 
+                    us a while to figure out how to get there but 
+                    it was
+                </p>
+            </div>
+            <div class="username-and-comment">
+                <div class="comment__header">
+                    <span class="username">Isaac Dylan</span>
+                    <span class="comment-time">1 day ago</span>
+                </div>
+                <p class="user__comment">
+                    Traveling changes you as a person, you again
+                    more perspective, this is the perfect spot
+                    to do that.
+                </p>
+            </div>
+            <div class="username-and-comment">
+                <div class="comment__header">
+                    <span class="username">Hudson Luca</span>
+                    <span class="comment-time">3 day ago</span>
+                </div>
+                <p class="user__comment">
+                    Definitely recommend going there, not too far and
+                    not a lot of people to ruin the experience.
+                </p>
+            </div>
+
+            <!--Redirecionar para a página de adicionar comentários-->
+            <a href="#" class="add-comment-button">
+                <i class="fa-solid fa-comment-dots"></i>
+                Leave a Review
+            </a>
+        </article>
+    </main>
+</body>
+</html>

@@ -1,0 +1,71 @@
+#main__page {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.main__page-section {
+    width: 480px;
+    margin-top: 25vh;
+}
+
+.main__page-title {
+    width: 320px;
+    margin: .5em 0 .2em;
+    font-size: 2.5em;
+    font-weight: 800;
+    line-height: 1em;
+    color: var(--primary-color);
+}
+
+.main__page-text {
+    width: 320px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    color: var(--secondary-color);
+}
+
+#main__page-options {
+    margin: 1em 0 2.5em 0;
+}
+
+.suggestions {
+    margin: 0 0 0 .5em;
+    color: var(--secondary-color);
+}
+
+.main__page-footer {
+    margin-top: 2.5em;
+    width: 320px;
+    box-sizing: border-box;
+}
+
+.footer__title {
+    color: var(--secondary-color);
+    font-weight: 700;
+}
+
+.partner__companies {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Botão página principal,
+Botão para criar uma conta
+*/
+.button {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 1em 2em;
+}
+
+.main-photo {
+    height: 100vh;
+}
+
+.fa-sharp {
+    margin-bottom: .5em;
+}

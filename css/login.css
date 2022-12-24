@@ -1,0 +1,108 @@
+#main__login-page {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Seção login*/
+#login__section {
+    width: 1800px;
+}
+
+/*Cabeçalho seção login*/
+.login__section-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    margin-top: 1em;
+}
+
+/*Link para voltar para página de procura*/
+.linkBackToSearchPage {
+    color: var(--secondary-color);
+    text-decoration: none;
+    margin-left: .2em;
+}
+
+.fa-solid {
+    color: var(--secondary-color);
+}
+
+/*Formulário de login*/
+#formusername-password {
+    width: 560px;
+    text-align: start;
+    margin: 5em auto 0 auto;
+    color: var(--secondary-color);
+    overflow: hidden;
+}
+
+.login__page-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-bottom: 1em;
+    color: var(--primary-color);
+}
+
+.name, .password {
+    width: 445px;
+    margin: .5em 0;
+    padding: 1em;
+    border: none;
+    background-color: #e2e2e2;
+    border-radius: 4px;
+}
+
+.login {
+    width: 473px;
+    margin: 1em 0;
+    padding: 1.5em;
+    border: none;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-weight: 700;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.linkToCreateAnAccount {
+    font-weight: 700;
+    color: #00b9ff;
+}
+
+/*comentário sobre a ferramenta*/
+.comment__on-yelpcamp {
+    background-color: var(--login-page-background-color);
+    width: 100vw;
+    height: 100vh;
+}
+
+#comment-user-information {
+    width: 300px;
+    color: var(--primary-color);
+    margin: 30vh auto;
+}
+
+.customer__comment {
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 1em auto;
+}
+
+.profile__picture {
+    float: left;
+    margin-right: .5em;
+}
+
+.username {
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.profession__user {
+    display: block;
+    margin-top: .2em;
+    color: var(--secondary-color);
+}
