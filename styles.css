@@ -2,6 +2,7 @@
 @import url('./css/search_page.css');
 @import url('./css/login.css');
 @import url('./campground_individual/campground-css/mount-ulap.css');
+@import url('./css/comments-page.css');
 
 :root {
     --main-font: 'Archivo', sans-serif;

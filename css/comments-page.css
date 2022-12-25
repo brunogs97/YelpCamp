@@ -1,0 +1,33 @@
+.comments__section {
+    text-align: start;
+    width: 490px;
+    margin: 20vh auto;
+}
+
+.title__section-page {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 1.3em;
+}
+
+.description {
+    color: var(--secondary-color);
+}
+
+#description {
+    border: none;
+    background-color: var(--edge-color);
+    margin: 1em 0 .5em 0;
+    padding: 1em;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--main-font);
+    line-height: 22px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.button__post {
+    width: 490px;
+}

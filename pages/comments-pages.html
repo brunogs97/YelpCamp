@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+    <script src="https://kit.fontawesome.com/c5ed4752ba.js" crossorigin="anonymous"></script>
+    <title>YelpCamp | comments</title>
+</head>
+<body>
+    <nav class="navigation__bar">
+        <!--Menu esquerdo-->
+        <div class="left-menu">
+            <img src="../Desktop/Logo.svg" id="yelpcamp__logo" alt="Logo da YelpCamp"></li>
+            <a href="../index.html" class="navigation__link">Home</a>
+        </div>
+        <!--Menu direito-->
+        <div class="right-menu">
+            <!--Link para a página de login-->
+            <a href="../pages/login.html" class="navigation__link">Login</a>
+            <!--Botão para criar uma conta-->
+            <a href="#" class="button button__create-account">Create an account</a>
+        </div>
+    </nav>
+
+    <section class="comments__section">
+        <h1 class="title__section-page">Add New Comment</h1>
+        <label for="description" class="description">Description</label>
+        <textarea id="description" cols="60" rows="10" minlength="5" maxlength="500" placeholder="This was probably the best camp i've visited this past year, definitely recommend visiting any time soon."></textarea>
+        <input type="submit" id="post__comment" class="login button__post" value="Post Comment">
+    </section>
+</body>
+</html>
