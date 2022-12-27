@@ -119,6 +119,10 @@
         margin-top: 0;
     }
 
+    .navigation__bar-mobile {
+        display: flex;
+    }
+
     .list__menu-places {
         background-color: var(--edge-color);
         position: absolute;
