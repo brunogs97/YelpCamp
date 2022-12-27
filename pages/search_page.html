@@ -16,7 +16,7 @@
     <nav class="navigation__bar">
         <!--Menu esquerdo-->
         <div class="left-menu">
-            <img src="../Desktop/Logo.svg" id="yelpcamp__logo" alt="Logo da YelpCamp"></li>
+            <img src="../Desktop/Logo.svg" id="yelpcamp__logo" alt="Logo da YelpCamp">
             <a href="../index.html" class="navigation__link">Home</a>
         </div>
         <!--Menu direito-->
@@ -26,22 +26,44 @@
             <!--Botão para criar uma conta-->
             <a href="./sing_up.html" class="button button__create-account">Create an account</a>
         </div>
+    </nav>
+    <!--Menu de navigação mobile-->
+    <nav class="navigation__bar-mobile">
+        <input type="checkbox" id="menu" class="container__botao">
+        <label for="menu">
+            <span class="hamburger-menu-navigation-bar container__image"></span>
+        </label>
 
+        <!--Lista do menu hambúrguer-->
+        <ul class="list__menu">
+            <li class="list__menu-item">
+                <a href="../index.html" class="navigation__link">Home</a>
+            </li>
+            <li class="list__menu-item">
+                <a href="../pages/login.html" class="navigation__link">Login</a>
+            </li>
+            <li class="list__menu-item">
+                <a href="./sing_up.html" class="button button__create-account navigation__link">Create an account</a>
+            </li>    
+        </ul>
+
+        <!--Logo da empresa-->
+        <img src="../Desktop/Logo.svg" id="yelpcamp__logo" class="container__image" alt="Logo da YelpCamp">
     </nav>
 
     <header class="search__page-header">
         <div class="header__content">
-        <h1 class="title title__content-header">Welcome to YelpCamp!</h1>
-        <p class="text text__content-header">
-            View our hand-picked campgrounds from all over
-            the world, or add your own.
-        </p>
+            <h1 class="title title__content-header">Welcome to YelpCamp!</h1>
+            <p class="text text__content-header">
+                View our hand-picked campgrounds from all over
+                the world, or add your own.
+            </p>
 
-        <input type="text" id="input__content-header" placeholder="Search for camps">
-        <!--Botão para pesquisar acampamentos-->
-        <a href="#" class="button butto__search">Search</a><br>
-        <!--Link para adicionar o seu local-->
-        <a href="./add_your_campground.html" class="link__add-camp">Or add your own campground</a>
+            <input type="text" id="input__content-header" placeholder="Search for camps">
+            <!--Botão para pesquisar acampamentos-->
+            <a href="#" class="button butto__search">Search</a><br>
+            <!--Link para adicionar o seu local-->
+            <a href="./add_your_campground.html" class="link__add-camp">Or add your own campground</a>
         </div>
     </header>
 

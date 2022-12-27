@@ -91,4 +91,8 @@ Botão para criar uma conta
         height: 100vw;
         margin-left: 1em;
     }
+
+    .icons__main-page {
+        width: 100px;
+    }
 }

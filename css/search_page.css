@@ -127,4 +127,96 @@
     font-weight: 700;
     text-decoration: none;
 }
+
+/*Mobile*/
+@media only screen and (max-width: 400px) {
+    .navigation__bar {
+        display: none;
+    }
+
+    .navigation__bar-mobile {
+        width: 100vw;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        padding: 1em;
+        box-sizing: border-box;
+    }
+
+    .hamburger-menu-navigation-bar {
+        width: 24px;
+        height: 24px;
+        background-image: url('../YelpCamp Starter Files/Assets/Hamburger\ Menu.svg');
+        display: inline-block;
+        background-color: var(--search-page-background-color);
+        border-radius: 4px;
+        margin-left: .2em;
+    }
+
+    /*Lista menu*/
+    .list__menu {
+        display: none;
+        position: absolute;
+        top: 80%;
+    }
+    /*Se o input estiver checked a minha lista menu irá aparecer*/
+    .container__botao:checked ~ .list__menu {
+        display: block;
+    }
+
+    /*Remover a caixinha do checkbox*/
+    .container__botao {
+        display: none;
+    }
+
+    .button__create-account {
+        background-color: transparent;
+        color: var(--secondary-color);
+        padding: 0;
+        margin-top: 1em;
+    }
+
+    .navigation__link {
+        margin: 1em 0;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    /*Header*/
+    .search__page-header {
+        width: 90vw;
+        margin: 0 auto;
+        padding: 1em;
+    }
+    
+    .title__content-header {
+        width: 200px;
+    }
+
+    .text__content-header  {
+        width: 300px;
+        margin: .5em 0;
+    }
+
+    /*Campo input de pesquisa*/ 
+    #input__content-header {
+        padding: .5em;
+    }
+
+    .butto__search {
+        padding: .6em;
+        font-size: 16px;
+    }
+
+    .link__add-camp {
+        font-size: 16px;
+    }
+
+    /*Post dos locais*/
+    .posts__places {
+        display: flex;
+        flex-direction: column;
+        margin: 2em ;
+    }
+}
    
