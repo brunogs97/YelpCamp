@@ -24,7 +24,7 @@
             <!--Link para a página de login-->
             <a href="../pages/login.html" class="navigation__link">Login</a>
             <!--Botão para criar uma conta-->
-            <a href="#" class="button button__create-account">Create an account</a>
+            <a href="../pages/sing_up.html" class="button button__create-account">Create an account</a>
         </div>
     </nav>
 
@@ -32,7 +32,9 @@
         <h1 class="title__section-page">Add New Comment</h1>
         <label for="description" class="description">Description</label>
         <textarea id="description" cols="60" rows="10" minlength="5" maxlength="500" placeholder="This was probably the best camp i've visited this past year, definitely recommend visiting any time soon."></textarea>
-        <input type="submit" id="post__comment" class="login button__post" value="Post Comment">
+        <input type="submit" id="post__comment" onclick="adicionar()" class="login button__post" value="Post Comment">
     </section>
+
+    <script src="../js/testes.js"></script>
 </body>
 </html>
