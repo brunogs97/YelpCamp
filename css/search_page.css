@@ -158,6 +158,13 @@
         display: none;
         position: absolute;
         top: 80%;
+        background-color: #fff;
+        padding: 0 .5em 1em 0;
+        border-radius: 4px;
+    }
+
+    .list__menu-item {
+        margin: .5em 0;
     }
     /*Se o input estiver checked a minha lista menu irá aparecer*/
     .container__botao:checked ~ .list__menu {
@@ -188,6 +195,10 @@
         margin: 0 auto;
         padding: 1em;
     }
+
+    .header__content {
+        width: 300px;
+    }
     
     .title__content-header {
         width: 200px;
@@ -216,7 +227,8 @@
     .posts__places {
         display: flex;
         flex-direction: column;
-        margin: 2em ;
+        margin: 2em;
+        width: 0;
     }
 }
    
