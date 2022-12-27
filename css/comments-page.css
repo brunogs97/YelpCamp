@@ -31,3 +31,19 @@
 .button__post {
     width: 490px;
 }
+
+/*Mobile*/
+@media only screen and (max-width: 400px) {
+    .comments__section {
+        width: 90vw;
+        margin: 1em auto;
+    }
+
+    #description {
+        width: 90vw;
+    }
+
+    .button__post {
+        width: 90vw;
+    }
+}

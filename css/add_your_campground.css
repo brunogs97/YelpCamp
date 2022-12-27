@@ -46,3 +46,15 @@ label ~ input {
     margin-top: 1.3em;
     cursor: pointer;
 }
+
+/*Mobile*/
+@media only screen and (max-width: 400px) {
+    .section__add-campground {
+        width: 90vw;
+        margin: 1em auto;
+    }
+
+    #description__campground {
+        width: 85vw;
+    }
+}
