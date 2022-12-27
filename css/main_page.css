@@ -69,3 +69,26 @@ Botão para criar uma conta
 .fa-sharp {
     margin-bottom: .5em;
 }
+
+/*Mobile*/
+@media only screen and (max-width: 400px) {
+    #main__page {
+        display: block;
+        height: 100vh;
+    }
+
+    .main__page-section {
+        margin: 1em;
+        width: 100vw;
+    }
+
+    .main__page-title{
+        width: 100vw;
+    }
+
+    .main-photo {
+        width: 90vw;
+        height: 100vw;
+        margin-left: 1em;
+    }
+}
