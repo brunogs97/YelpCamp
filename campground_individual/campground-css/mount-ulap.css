@@ -8,7 +8,11 @@
     grid-template-columns: 380px 1fr;
     grid-column-gap: 30px;
     grid-row-gap: 30px;
-    position: relative;
+    
+}
+
+.navigation__bar-mobile {
+    display: none;
 }
 
 .local__map {
@@ -104,4 +108,47 @@
 
 .fa-solid {
     margin-right: .2em;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 400px) {
+    #main__content {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        margin-top: 0;
+    }
+
+    .list__menu-places {
+        background-color: var(--edge-color);
+        position: absolute;
+    }
+
+    .local__map {
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    .location__information {
+        width: 90vw;
+        margin: 0 auto;
+        box-sizing: border-box;
+        padding: 1em;
+    }
+
+    .image-of-the-place {
+        width: 80vw;
+    }
+
+    .place__description {
+        width: 200px;
+    }
+
+    .comments-about-the-place {
+        width: 90vw;
+        margin: 0 auto;
+        height: 500px;
+        text-align: start;
+        box-sizing: border-box;
+    }
 }
