@@ -1,0 +1,48 @@
+.section__add-campground {
+    width: 500px;
+    height: 50vh;
+    margin: 0 auto;
+    text-align: start;
+}
+
+.title__page-add-campground {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 1em;
+    color: var(--primary-color);
+}
+
+.input__description {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--secondary-color);
+    margin-bottom: 1em;
+}
+
+label ~ input {
+    width: 332px;
+    padding: 1em;
+    border-radius: 4px;
+    border: none;
+    background-color: var(--edge-color);
+    margin: .5em 0 1em 0;
+}
+
+#description__campground {
+    background-color: var(--edge-color);
+    border: none;
+    border-radius: 4px;
+    padding: 1em;
+    font-family: var(--main-font);
+    line-height: 22px;
+    font-weight: 400;
+    margin-top: .5em;
+}
+
+.button__add-campground {
+    background-color: var(--primary-color);
+    color: var(--login-page-background-color);
+    width: 358px;
+    margin-top: 1.3em;
+    cursor: pointer;
+}

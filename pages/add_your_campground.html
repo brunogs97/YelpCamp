@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+    <script src="https://kit.fontawesome.com/c5ed4752ba.js" crossorigin="anonymous"></script>
+    <title>YelpCamp | Add New Campgroung</title>
+</head>
+<body>
+    <nav class="navigation__bar">
+        <!--Menu esquerdo-->
+        <div class="left-menu">
+            <img src="../Desktop/Logo.svg" id="yelpcamp__logo" alt="Logo da YelpCamp"></li>
+            <a href="../index.html" class="navigation__link">Home</a>
+        </div>
+        <!--Menu direito-->
+        <div class="right-menu">
+            <!--Link para a página de login-->
+            <a href="../pages/login.html" class="navigation__link">Login</a>
+            <!--Botão para criar uma conta-->
+            <a href="./sing_up.html" class="button button__create-account">Create an account</a>
+        </div>
+
+    </nav>
+
+    <section class="section__add-campground">  
+        <h1 class="title__page-add-campground">Add New Campgroung</h1>
+
+        <label for="campground__name"  class="input__description">Campground Name</label><br>
+        <input type="text" id="campground__name" placeholder="Seven Sisters Waterfall"><br>
+        <label for="price__campground"  class="input__description">Price</label><br>
+        <input type="text" id="price__campground" placeholder="$149"><br>
+        <label for="image__campground"  class="input__description">Image</label><br>
+        <input type="url" id="image__campground" placeholder="www.thepinoytraveler.com/2018/01/mt-ulap-dy.html"><br>
+        <label for="description__campground"  class="input__description">Description</label><br>
+        <textarea id="description__campground" cols="45" rows="10"
+        placeholder="The Seven Sisters is the 39th tallest waterfall in Norway. The 410-metre tall waterfall consist of seven separete streams and the tallest of the seven has a free fall that measures 250 metres."></textarea><br>
+        <input type="submit" id="button__add-campground" class="button__add-campground" value="Add Campground">
+    </section>
+
+    <script src="../js/login.js"></script>
+</body>
+</html>
