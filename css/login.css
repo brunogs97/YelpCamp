@@ -106,3 +106,44 @@
     margin-top: .2em;
     color: var(--secondary-color);
 }
+
+/*Mobile*/
+@media only screen and (max-width: 400px) {
+    #main__login-page {
+        display: flex;
+        flex-direction: column;
+        justify-content: none;
+    }
+
+    #login__section {
+        width: 80vw;
+        margin: 1em 0;
+    }
+
+    .login__section-header{
+        width: 390px;
+        margin: 0;
+    }
+
+    #formusername-password {
+        width: 90vw;
+        margin: 2em 1em .5em 1em;
+    }
+
+    .login {
+        text-align: center;
+        width: 90vw;
+        margin: 1em 0;
+        padding: 1.5em;
+    }
+
+    .comment__on-yelpcamp {
+        width: 90vw;
+        margin: 0 auto;
+        height: 35vh;
+    }
+
+    #comment-user-information {
+        margin: 1em;
+    }
+}
