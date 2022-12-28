@@ -4,7 +4,7 @@ function logar() {
 
     if(username == "admin" && password == "admin") {
         //console.log("acessar página");
-        location.href="http://127.0.0.1:5500/pages/add_your_campground.html";
+        location.href="http://127.0.0.1:5500/pages/add_your_campground.html";  
     } else {
         alert("Usuário ou Senha incorretos");
     }
